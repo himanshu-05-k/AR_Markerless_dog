@@ -1,0 +1,11 @@
+# Unity YAML files
+*.unity linguist-language=YAML
+*.prefab linguist-language=YAML
+*.asset linguist-language=YAML
+*.meta linguist-language=YAML
+
+# Prevent Unity/Wolfram .wlt files from affecting language statistics
+*.wlt linguist-vendored
+
+# Unity-generated files
+*.meta linguist-vendored
